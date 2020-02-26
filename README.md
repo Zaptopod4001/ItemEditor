@@ -33,11 +33,13 @@ This is the Editor Window for editing items. Item Window has minimum and maximum
 ### ItemDataSOEditor
 Custom Editor for styling ItemDataSO Scriptable Object class.
 
+### ItemDataSO
+Disk persisted item data that wouldn't be serialized in game. Contains fields for assets like sound, sprite and mesh.
+
 ### ItemData
 Data class to store item data runtime. No asset references.
 
-### ItemDataSO
-Disk persisted item data that wouldn't be serialized in game. Contains fields for assets like sound, sprite and mesh.
+
 
 
 ## Data files
