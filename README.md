@@ -25,25 +25,25 @@ Item Editor shows how to use and implement various Unity Editor things:
 * How to allow editing diplayed item and persist changes to both Scriptable Object and its sub class
 
 
-# Classes
+## Classes
 
-## ItemDataEditor
+### ItemDataEditor
 This is the Editor Window for editing items. Item Window has minimum and maximum size.
 
-## ItemDataSOEditor
+### ItemDataSOEditor
 Custom editor for styling Scriptable Object.
 
-## ItemData
+### ItemData
 Data class to store item data runtime. No asset references.
 
-## ItemDataSO
+### ItemDataSO
 Disk persisted item data that wouldn't be serialized in game. Contains fields for assets like sounds, sprites and meshes.
 
-## About
+### About
 I created this item editor for myself for different personal Unity projects.
 
 
-# Data files
+## Data files
 
 ![Item Data Files](/doc/item_data_files.png)
 
