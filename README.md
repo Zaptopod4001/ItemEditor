@@ -37,8 +37,7 @@ Custom Editor for styling ItemDataSO Scriptable Object class.
 Disk persisted item data that wouldn't be serialized in game. Contains fields for assets like sound, sprite and mesh.
 
 ### ItemData
-Data class to store item data runtime. No asset references.
-
+Data class to store item runtime data.
 
 
 
