@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11d366706f1be2e46a05b3647d412429, type: 3}
+  m_Name: Armor
+  m_EditorClassIdentifier: 
+  data:
+    itemID: 
+    vendorValue: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+  assetSprite: {fileID: 21300012, guid: 9112352c43c2d9b499c24108c4601458, type: 3}
+  assetPrefab: {fileID: 2190737778300988167, guid: 665a752060ddc8647b938d3cdd5cd7c7,
+    type: 3}
+  assetSound: {fileID: 8300000, guid: 7732be34cfae05b418487742886c2b5d, type: 3}
