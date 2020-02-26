@@ -1,4 +1,4 @@
-# Item Editor (Unity / C#)
+# Item Editor (Unity 2018.4 / C#)
 
 ![Item Editor](/doc/item_editor.gif)
 
