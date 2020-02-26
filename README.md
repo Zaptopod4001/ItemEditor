@@ -45,7 +45,7 @@ Data class to store item runtime data.
 
 ![Item Data Files](/doc/item_data_files.png)
 
-These are the demo ItemDataSO data assets that can be edited with Item Editor.
+These are the demo ItemDataSO data asset files that can be edited with Item Editor.
 
 ## About
 I created this item editor for myself for different personal Unity projects.
