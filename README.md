@@ -4,52 +4,51 @@
 
 ## What is it?
 
-Item editor shows how to create various Unity Editor things.
+Item Editor shows how to use and implement various Unity Editor things:
 
-* Create Scriptable Objects to be used as data containers (RPG items in this case)
+* How to create Scriptable Objects to be used as data containers (RPG items in this case, but could be anything)
 
-* Contain serializable classes inside Scriptable Objects
+* How to Contain Serializable classes inside Scriptable Objects
 
-* Create custom Editor / Inspector for Scriptable Object
+* Create Custom Editor/Inspector for a Scriptable Object
 
 * Access Scriptable Object and its sub class data using Serialized Object and Serialized Properties
 
-* Create Custom Editor Window to edit items
+* Create Custom Editor Window to edit data classes
 
-* How to create using scopes and use various Editor stylings to style Custom Editor fields
+* Create editor layout scopes and use various other Editor styling methods to style Custom Editor fields
 
-* Create, read, use and delete (CRUD) unity Assets
+* Create, read, use and delete (CRUD) Unity Asset files
 
-* Display other class Inspectors (Editor) and Custom Inspectors in Editor view
+* Display other class' Inspector (Editor) and Custom Inspector in Editor window view
 
-* Allow editing diplayed item and persist changes to both Scriptable Object and its sub class
+* How to allow editing diplayed item and persist changes to both Scriptable Object and its sub class
 
 
 # Classes
 
 ## ItemDataEditor
-Editor Window for editing items. 
+This is the Editor Window for editing items. Item Window has minimum and maximum size.
 
 ## ItemDataSOEditor
 Custom editor for styling Scriptable Object.
 
 ## ItemData
-Pure data class to store item data runtime. No asset references.
+Data class to store item data runtime. No asset references.
 
 ## ItemDataSO
-Disk persisted item data that wouldn't be serialized in game.
+Disk persisted item data that wouldn't be serialized in game. Contains fields for assets like sounds, sprites and meshes.
 
 ## About
 I created this item editor for myself for different personal Unity projects.
 
 
-## Data files
+# Data files
 
 ![Item Data Files](/doc/item_data_files.png)
 
-These are the ItemDataSO assets that can be edited with Item editor.
+These are the demo ItemDataSO data file assets that can be edited with Item Editor.
 
 
 ## Copyright 
 Created by Sami S. use of any kind without a written permission from the author is not allowed. But feel free to take a look.
-If you have doubts about what you are looking and if you can use this material - leave now...
